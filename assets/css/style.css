@@ -1,0 +1,55 @@
+body{
+	margin:0px;
+	padding: 0px;
+	font-color:#777777;
+	width: 960;
+	background-color: teal;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}	
+
+.main{width:650px;
+	background-color: #ffffff
+
+
+}
+
+.header{
+	background-color: #ffffff;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width:50%;
+	float: left;
+}
+
+.nav{background-color: green;
+
+}
+
+.aboutme{
+	background-color:yellow;
+	float: left;
+}
+
+.connect {
+	width:250px;
+	background-color:white;
+	float: left;
+	
+}
+
+
+footer {
+	text-align: center;
+	background-color:grey;
+	color:white;
+	padding:10px;
+	float:none;
+}
+
+
+
+
+	
+
+
+
