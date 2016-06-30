@@ -1,50 +1,77 @@
 body{
 	margin:0px;
 	padding: 0px;
-	font-color:#777777;
-	width: 960;
-	background-color: teal;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
 }	
 
-.main{width:650px;
-	background-color: #ffffff
-
-
+.container{
+	width:960px;
+	margin:0 auto;
 }
 
 .header{
-	background-color: #ffffff;
-	border-color: #cccccc;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	width:50%;
-	float: left;
+	width:100%;
+	background: #ffffff;
+	border-color: #777777;
+	top:0;
+	position: fixed;
 }
 
-.nav{background-color: green;
-
-}
-
-.aboutme{
-	background-color:yellow;
-	float: left;
-}
-
-.connect {
-	width:250px;
-	background-color:white;
-	float: left;
-	
-}
-
-
-footer {
-	text-align: center;
-	background-color:grey;
+.logo{
+	float:left;
+	padding:20px;
 	color:white;
-	padding:10px;
-	float:none;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background: lightseagreen;
+
 }
+
+a{
+	text-decoration: none;
+	color:#777777;
+}
+
+li{
+	list-style: none;
+	float:right;
+	margin:15px;
+	padding-top: 10px
+}
+
+.nav {
+	float:left;
+}
+
+
+.content{
+	position: relative;
+	top:150px;
+
+}
+
+.content img{
+	width: 40%;
+}
+
+
+
+.footer{
+	width:100%;
+	height: 100px;
+	background: grey;
+	bottom:0;
+	margin:0px;
+
+}
+
+p{
+	text-align: center;
+	color:white;
+	padding:40px;
+
+}
+
 
 
 
